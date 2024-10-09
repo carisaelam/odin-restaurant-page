@@ -4,7 +4,6 @@ import menuContent from './menu';
 import aboutContent from './about';
 import contactContent from './contact';
 
-console.log('hi there from index.js');
 
 const content = document.getElementById('content');
 const homeButton = document.querySelector('.home');
