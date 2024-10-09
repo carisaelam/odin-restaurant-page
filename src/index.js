@@ -1,6 +1,7 @@
 import './styles.css';
 import homeContent from './home';
 import menuContent from './menu';
+import aboutContent from './about';
 
 console.log('hi there from index.js');
 
