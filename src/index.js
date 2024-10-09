@@ -1,3 +1,6 @@
 import './styles.css';
+import homeContent from './home';
 
-console.log('hi from index.js');
+console.log('hi there from index.js');
+
+document.getElementById('content').appendChild(homeContent());
