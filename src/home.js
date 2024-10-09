@@ -2,9 +2,9 @@ import exterior from './img/exterior-view.png';
 import interior from './img/savory-haven-image.png';
 
 export default function homeContent() {
-  const contentDiv = document.createElement('div');
+  const contentSection = document.createElement('section');
 
-  contentDiv.innerHTML = `<div class="main__header__container">
+  contentSection.innerHTML = `<div class="main__header__container">
         <h1>Savory Haven</h1>
         <h2>Where Flavor Meets Comfort</h2>
       </div>
@@ -41,5 +41,5 @@ export default function homeContent() {
 
 `;
 
-  return contentDiv;
+  return contentSection;
 }
